@@ -14,7 +14,11 @@ export const Container = styled.div`
         grid-template-columns: 1fr 1fr;
         column-gap: 10%;
         row-gap: 3%;
-        margin-bottom: 5rem;
         padding: 0% 6% 6% 6%;
+    }
+    @media (max-width: 768px) {
+        .xx__grid{
+            display: block;
+        }
     }
 `;

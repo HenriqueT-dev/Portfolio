@@ -24,11 +24,16 @@ export const GlobalStyle = createGlobalStyle`
     a{
         text-decoration: none;
         color: inherit;
+        &:hover {
+          background-color: #272727;
+        }
     }
     ul, ol{
         display: flex;
         list-style: none;
         color: white;
+        margin: 0;
+        padding: 0;
     }
     button{
         background-color: inherit;

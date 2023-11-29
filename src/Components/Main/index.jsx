@@ -24,7 +24,7 @@ export default function Main(){
                     </a>
                 </div>
             </div>
-            <img src="/Main.png" alt="Main Image"/>
+            <img src="/Main.png" alt="Main Image" className="xx__imgMobile"/>
  
         </Container>
     );

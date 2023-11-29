@@ -39,4 +39,20 @@ export const Container = styled.div`
         display: flex;
         width: 140px;
     }
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+        .xx__info{
+            padding: 6rem 0rem;
+        }
+        .xx__button{
+            a{
+                margin: 0;
+            }
+        }
+        .xx__imgMobile{
+            display: none;
+        }
+    }
 `;

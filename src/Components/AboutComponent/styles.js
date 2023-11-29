@@ -38,4 +38,14 @@ export const Container = styled.div`
         display: flex;
     }
     //final do código para a classe .xx__button
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        .xx__info{
+            margin: 1rem;
+            p{
+                width: 310px;
+            }
+        }
+    }
 `;

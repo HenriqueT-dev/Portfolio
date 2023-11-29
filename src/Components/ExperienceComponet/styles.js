@@ -10,6 +10,10 @@ export const Container = styled.div`
             padding-bottom: 3rem;
         }
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const Card = styled.div`
@@ -50,6 +54,13 @@ export const InfoContainer = styled.div`
         ${({ $isSelected }) => $isSelected && css`
             animation: ${slideInAnimation} 0.5s forwards;
   `}
+
+  @media (max-width: 768px) {
+    margin: 0;
+    p{
+        width: 310px;
+    }
+  }
 `;
 
 const slideInAnimation = keyframes`
