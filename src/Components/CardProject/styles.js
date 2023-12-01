@@ -40,6 +40,22 @@ export const Container = styled.div`
         width: 40%;
         border: none;
     }
+
+    @media (max-width: 768px) {
+        text-align: center;
+        padding-bottom: 40px;
+        .xx__Links {
+            align-items: center;
+            padding: 40px 0px 20px 0px;
+        }
+        .xx__Links a{
+            margin-right: 2rem;
+        }
+        .xx__Links button {
+            width: 140px;
+            height: 60px;
+        }
+    }
 `;
 export const AnimationImg = styled.img`
     max-width: 90%;

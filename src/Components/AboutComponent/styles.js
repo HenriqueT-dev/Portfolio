@@ -36,16 +36,35 @@ export const Container = styled.div`
 
     .xx__button button {
         display: flex;
+        justify-content: space-evenly;
+        width: 140px;
+        height: 60px;
     }
     //final do código para a classe .xx__button
 
     @media (max-width: 768px) {
         flex-direction: column;
+        padding: 100px 50px;
+        img{
+            width: 80%;
+        }
         .xx__info{
+            text-align: center;
             margin: 1rem;
+            margin-top: 2rem;
             p{
                 width: 310px;
             }
+        }
+        .xx__button button {
+            width: 140px;
+            height: 60px;
+        }
+        .xx__button a {
+            margin-right: 1rem;
+        }
+        .xx__button img {
+            width: 20%;
         }
     }
 `;

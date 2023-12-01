@@ -17,8 +17,14 @@ export const Container = styled.div`
         padding: 0% 6% 6% 6%;
     }
     @media (max-width: 768px) {
+        text-align: center;
+        h1{
+            justify-content: center;
+            padding: 8% 0%;
+        }
         .xx__grid{
             display: block;
+            padding: 0;
         }
     }
 `;

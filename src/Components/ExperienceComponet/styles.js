@@ -13,6 +13,11 @@ export const Container = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
+        padding: 6rem 0rem;
+        text-align: center;
+        .xx__menu{
+            margin-bottom: 4rem;
+        }
     }
 `;
 
@@ -33,6 +38,20 @@ export const Card = styled.div`
         `}
     &:hover {
         background-color: #272727;
+    }
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        border-left: 0px;
+        border-bottom: 2px solid #2d9140;
+        width: 50%;
+        margin-left: 24.5%;
+
+        ${({ $isSelected }) => 
+        $isSelected && 
+        css`
+           background-color: #272727;
+        `}
     }
 `;
 
@@ -57,8 +76,14 @@ export const InfoContainer = styled.div`
 
   @media (max-width: 768px) {
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     p{
         width: 310px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
   }
 `;
