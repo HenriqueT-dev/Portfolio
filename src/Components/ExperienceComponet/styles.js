@@ -66,7 +66,7 @@ export const InfoContainer = styled.div`
             color: #2d9140;
         }
         p{
-            width: 750px;
+            width: 80%;
             overflow-wrap: break-word;
             word-wrap: break-word;
         }
@@ -81,11 +81,23 @@ export const InfoContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     p{
-        width: 310px;
+        width: 90%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    h4{
+        width: 70%;
         overflow-wrap: break-word;
         word-wrap: break-word;
     }
   }
+  @media (min-width: 1024px) {
+        p{
+            width: auto;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+    }
 `;
 
 const slideInAnimation = keyframes`

@@ -7,6 +7,7 @@ export const Container = styled.div`
     background-color: #151515;
     img{
         width: 20%;
+        border-left: 6px solid #02fa31;
     }        
     .xx__info{
         margin-left: 4rem;
@@ -17,7 +18,7 @@ export const Container = styled.div`
             color: #2d9140;
         }
         p{
-        width: 810px;
+        width: 85%;
         overflow-wrap: break-word;
         word-wrap: break-word;
         }
@@ -33,16 +34,21 @@ export const Container = styled.div`
     .xx__button a:hover {
         background-color: #272727;
     }
-
     .xx__button button {
         display: flex;
         justify-content: space-evenly;
         width: 140px;
         height: 60px;
     }
+    .xx__button img{
+        border-left: 0;
+    }
     //final do código para a classe .xx__button
 
     @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         padding: 100px 50px;
         img{
@@ -50,11 +56,14 @@ export const Container = styled.div`
         }
         .xx__info{
             text-align: center;
-            margin: 1rem;
+            margin: 0;
             margin-top: 2rem;
             p{
-                width: 310px;
+                width: 100%;
             }
+        }
+        .xx__button{
+            justify-content: space-evenly;
         }
         .xx__button button {
             width: 140px;
@@ -66,5 +75,14 @@ export const Container = styled.div`
         .xx__button img {
             width: 20%;
         }
+    }
+    @media (min-width: 1024px) {
+        .xx__info{
+        p{
+            width: auto;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+    }
     }
 `;

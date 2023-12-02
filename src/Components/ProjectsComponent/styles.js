@@ -27,4 +27,18 @@ export const Container = styled.div`
             padding: 0;
         }
     }
+    @media (min-width: 770px) and (max-width: 1024px) {
+        .xx__grid{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 0rem 1rem 4rem 1rem;
+        }
+        h1{
+            justify-content: center;
+            padding: 4% 0%;
+        }
+    }
 `;

@@ -42,24 +42,47 @@ export const Container = styled.div`
     }
 
     @media (max-width: 768px) {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         padding-bottom: 40px;
-        .xx__Links {
-            align-items: center;
-            padding: 40px 0px 20px 0px;
+        p{
+            padding: 0px 10px;
         }
-        .xx__Links a{
-            margin-right: 2rem;
+        span{
+            padding: 0px 25px;
+        }
+        .xx__Links {
+            display: block;
+            padding: 40px 0px 20px 0px;
         }
         .xx__Links button {
             width: 140px;
             height: 60px;
         }
     }
+    @media (min-width: 770px) and (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            padding: 0;
+            max-width: 70%;
+        }
+        span{
+            padding: 0px 25px;
+        }
+        .xx__Links {
+            display: flex;
+            padding: 40px 0px;
+        }
+    }
 `;
 export const AnimationImg = styled.img`
     max-width: 90%;
-    /* border-left: 6px solid green; */
+    border-left: 6px solid #02fa31;
     margin-top: 8%;
     transition: transform 0.5s ease;
     cursor: pointer;

@@ -42,7 +42,7 @@ export default function ExperienceComponet(){
                     <h4>BetAway</h4>
                     <p> Projeto full stack onde desenvolvo uma Fintech para um grupo de investidores ao qual eu estou incluso como
                         colaborador e socio majoritario, o projeto consiste em um App Fintech que conta com varias opções, tratamento
-                        de erros, documentação git para possiveis novos colaboradores.
+                        de erros e documentação git para possiveis novos colaboradores.
                     </p>
                 </InfoContainer>
             )}
