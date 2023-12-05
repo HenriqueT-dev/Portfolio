@@ -15,9 +15,10 @@ export default function Header() {
             </a>
             <div className="xx__ul">
                 <ul>
-                    <a href='/'><li>Home</li></a>
-                    <a href='/about'><li>About</li></a>
-                    <a href='/projects'><li>Projects</li></a>
+                    <a href='#home'><li>Home</li></a>
+                    <a href='#about'><li>About</li></a>
+                    <a href='#experience'><li>Experience</li></a>
+                    <a href='#projects'><li>Projects</li></a>
                 </ul>
             </div>
             <div className="menu-toggle" onClick={toggleMenu}>

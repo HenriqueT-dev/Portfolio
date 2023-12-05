@@ -24,6 +24,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 1.5% ;
+    margin-right: 6%;
     a {
         border-radius: 4px;
         padding: 8%;

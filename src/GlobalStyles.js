@@ -4,6 +4,9 @@ export const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
     }
+    html {
+    scroll-behavior: smooth;
+    }
     body{
         font-family: 'Inter', sans-serif;
         margin: 0;

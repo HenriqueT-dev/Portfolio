@@ -6,9 +6,9 @@ import Button from "../button";
 export default function AboutComponent(){
     const arquivoPDF = "/archives/ResumeHenriqueTorres.pdf";
     return(
-        <Container>
+        <Container id="about">
             <img src="/Myself.png" alt="Imagem propria"/>
-            <div className="xx__info">
+            <div className="xx__info" >
                 <h2>SOBRE MIM</h2>
                 <h4>Goiânia, Goiás</h4>
                 <p> Olá, Sou desenvolvedor web atualmente focado no back end, estudando a linguagem ruby

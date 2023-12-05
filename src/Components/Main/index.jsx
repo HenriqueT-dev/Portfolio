@@ -5,8 +5,8 @@ import Button from "../button";
 
 export default function Main(){
     return(
-        <Container>
-            <div className="xx__info">
+        <Container id="home">
+            <div className="xx__info" >
                 <div className="xx__span">
                     <span >
                         Olá mundo, me chamo

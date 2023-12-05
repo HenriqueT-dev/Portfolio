@@ -3,7 +3,7 @@ import { Card, Container, InfoContainer } from "./styles";
 
 export default function ExperienceComponet(){
 
-    const options = ["MyContacts", "BetAway", "Freelancer"];
+    const options = ["Desenvolvedor", "BetAway", "G.Primavera"];
 
     const [selectedOption, setSelectedOption] = useState( 0 );
 
@@ -11,7 +11,7 @@ export default function ExperienceComponet(){
         setSelectedOption(index);
     }
     return(
-        <Container>
+        <Container id="experience">
             <div className="xx__menu">
                 <h1>EXPERIÊNCIA</h1>
                 {options.map((option, index) => (
@@ -28,11 +28,16 @@ export default function ExperienceComponet(){
             {selectedOption === 2 && (
                 <InfoContainer $isSelected={selectedOption === 2}>
                     <h2>Desenvolvedor Web</h2>
-                    <h4>Freelancer</h4>
-                    <p>Minha primeira oportunidade na área da tecnologia, sendo o projeto um aplicativo porém feito em ReactJS para empresas 
-                        localizadas em Orlando - FL que fornecem locação de casas/apartamentos, sendo desenvolvido totalmente pensado na 
-                        responsividade. Sou responsável pelo front-end da aplicação, assim como integração com o backend. Utiliza SCRUM como
-                        metodologia ágil, juntamente com Trello. Projeto encaminhando para a fase final de desenvolvimento.
+                    <h4>Galeria Primavera-Freelancer</h4>
+                    <p>Minha introdução à tecnologia foi marcada por uma emocionante oportunidade:
+                        desenvolver várias páginas web personalizadas para profissionais autônomos.
+                        Utilizei o ReactJS, focando em código limpo e modular para facilitar futuras atualizações.
+                        A experiência não apenas aprimorou minhas habilidades técnicas, 
+                        mas também destacou a importância de compreender as necessidades dos usuários. 
+                        A satisfação do cliente e o aprendizado significativo tornaram esse projeto inicial inesquecível, 
+                        solidificando minha paixão pelo desenvolvimento de software.
+                        Desde então, continuo crescendo e enfrentando novos desafios com entusiasmo.
+
                     </p>
                 </InfoContainer>
             )}
@@ -40,19 +45,26 @@ export default function ExperienceComponet(){
                 <InfoContainer $isSelected={selectedOption === 1} >
                     <h2>Desenvolvedor Full Stack</h2>
                     <h4>BetAway</h4>
-                    <p> Projeto full stack onde desenvolvo uma Fintech para um grupo de investidores ao qual eu estou incluso como
-                        colaborador e socio majoritario, o projeto consiste em um App Fintech que conta com varias opções, tratamento
-                        de erros e documentação git para possiveis novos colaboradores.
+                    <p>Participo ativamente do desenvolvimento de um aplicativo Fintech,
+                        onde atuo como colaborador e sócio majoritário. O projeto está em andamento, 
+                        com um robusto back-end em Ruby e um frontend eficiente em React. 
+                        Destaco a ênfase na documentação Git abrangente, facilitando a integração de novos colaboradores. 
+                        Este empreendimento representa não apenas um desafio técnico, mas uma oportunidade de 
+                        aprimorar minhas habilidades. Estou empolgado com a jornada e ansioso para ver o 
+                        desenvolvimento contínuo deste projeto.
                     </p>
                 </InfoContainer>
             )}
             {selectedOption === 0 && (
                 <InfoContainer $isSelected={selectedOption === 0}>
-                    <h2>Desenvolvedor Full Stack</h2>
-                    <h4>Serviço prestado para empresa de Software</h4>
-                    <p> Desenvolvi um software web usando as tecnologias, typescript, reactJs, NodeExpress, o projeto consiste
-                        em uma pagina que armazena contatos, exatamente como uma agenda de contatos, nele pude treinar minhas
-                        habilidades tanto no front como no back.
+                    <h2>Desenvolvedor</h2>
+                    <h4>Loading...</h4>
+                    <p>Ao longo dos últimos dois anos, mergulhei de cabeça no universo da tecnologia, 
+                        absorvendo conhecimentos e enfrentando desafios que moldaram minha jornada profissional. 
+                        Desde os primeiros passos até projetos complexos, cada experiência contribuiu para meu crescimento e 
+                        amadurecimento como profissional da área. Agora, ansiosamente, aguardo por novas oportunidades para 
+                        aplicar e ampliar os conhecimentos adquiridos nesse período, prontificando-me incansavelmente
+                        para os desafios que me aguardam.
                     </p>
                 </InfoContainer>
             )}
