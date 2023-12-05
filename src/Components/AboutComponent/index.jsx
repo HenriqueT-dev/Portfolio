@@ -12,7 +12,7 @@ export default function AboutComponent(){
                 <h2>SOBRE MIM</h2>
                 <h4>Goiânia, Goiás</h4>
                 <p> Olá, Sou desenvolvedor web atualmente focado no back end, estudando a linguagem ruby
-                    e estou cursando Análise e desenvolvimento de sistemas na FIAP, A 2 anos atrás pude conhecer de perto
+                    e estou cursando Análise e desenvolvimento de sistemas na UniCesumar, A 2 anos atrás pude conhecer de perto
                     o trabalho e rotina de um programador senior e desde então sigo trilhando meu caminho para um dia tambem
                     partilhar da mesma rotina. 
                 </p>
