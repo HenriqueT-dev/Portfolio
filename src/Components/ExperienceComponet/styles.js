@@ -2,7 +2,7 @@ import styled, { css, keyframes } from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    padding: 5rem;
+    padding: 100px 120px;
     background-color: #121212;
     .xx__menu{
         h1{

@@ -3,9 +3,9 @@ import { Container } from "./styles";
 
 import Button from "../button";
 
-export default function Main(){
+export default function PersonalInfos(){
     return(
-        <Container id="home">
+        <Container>
             <div className="xx__info" >
                 <div className="xx__span">
                     <span >
@@ -25,7 +25,6 @@ export default function Main(){
                 </div>
             </div>
             <img src="/Main.png" alt="Main Image" className="xx__imgMobile"/>
- 
         </Container>
     );
 }

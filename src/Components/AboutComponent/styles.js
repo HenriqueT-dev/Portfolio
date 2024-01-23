@@ -3,17 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 100px 120px;
     background-color: #151515;
-    img{
-        width: 20%;
-        border-left: 6px solid #02fa31;
-    }        
+        img{
+            width: 20%;
+            border-left: 6px solid #02fa31;
+            border-radius: 8px;
+        }        
     .xx__info{
         margin-left: 4rem;
-        h2{
-            color: #FFFFFF;
-        }
         h4{
             color: #2d9140;
         }

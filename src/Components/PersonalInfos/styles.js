@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 40px 0px;
+    justify-content: space-between;
+    padding: 50px 120px;
     background-color: #121212;
     img{
-        width: 35%;
+        width: 45%;
     }
     .xx__info{
         text-transform: uppercase;
@@ -23,14 +23,10 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
     }
-    .xx__button a {
-        margin-right: 3rem;
-    }
     .xx__button a:hover {
         background-color: #272727;
     }
     .xx__button img{
-        text-align: center;
         width: 20%;
         background-color: transparent;
     }

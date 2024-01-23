@@ -4,7 +4,7 @@ import CardProject from "../CardProject";
 
 export default function ProjectComponent(){
     return(
-        <Container id="projects">
+        <Container>
             <h1>PROJETOS</h1>
             <div className="xx__grid">
                 <CardProject

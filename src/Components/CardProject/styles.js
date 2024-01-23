@@ -6,7 +6,7 @@ export const Container = styled.div`
         margin: 8% 0%;
     }
     p{
-        max-width: 460px;
+        max-width: 440px;
         overflow-wrap: break-word;
         word-wrap: break-word;
         margin-bottom: 8%;
@@ -14,7 +14,7 @@ export const Container = styled.div`
     }
     span{
         display: inline-block;
-        max-width: 460px;
+        max-width: 440px;
         word-wrap: break-word;
         font-size: 14px;
         color: #28eb55;
@@ -22,11 +22,10 @@ export const Container = styled.div`
     }
     .xx__Links{
         display: flex;
-        justify-content: space-between;
-        padding: 40px 30px 10px 0px;
+        padding: 40px 0;
     }
     .xx__Links a{
-        margin-right: 3rem;
+        margin-right: 20px;
     }
     .xx__Links a:hover {
         background-color: #272727;
